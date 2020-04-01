@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style>
+	html {
+		background: maroon  
+			radial-gradient(
+			circle, #a01010 0%, #800000 80%)
+			center center / 
+			cover no-repeat;
+		color: #fff;
+	}
+	.images {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+		height: 100%;
+		border: yellow;
+		border-style: groove;
+	}
+	#column-right {
+		top: 0;
+		right: 0;
+		position: absolute;
+		fill: #fff;
+		transform: rotate(25deg);
+	}
+</style>
+	<body>
+		<div id="column-right">&mdash;&mdash;</div>
+		<div class="wrapper">
+			<p>
+			<code>
+			HELLO, PRC...with love from us, the living.
+			</code>
+			<br>
+			<br>
+			<br>
+			<code>
+
+			USAGE 
+				POST /
+				accepts raw data in the body of the request and responds with a URL of
+				a page containing the body's content
+			GET /<id>
+				retrieves the content for the paste with id `<id>`
+			</code>
+			<br>
+			<small>Made with Rocket: a rust web framework</small>
+			</p>
+		</div>
+		<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Chiang_Kai_Shek_and_wife_with_Lieutenant_General_Stilwell.jpg" alt="Stilwell with Generalissimo Chiang Kai-shek and Madame Chiang Kai-shek"/>
+		<br>
+		<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Nixon_shakes_hands_with_Chou_En-lai.jpg" alt="President Richard Nixon shakes hands with Chinese Premier Zhou Enlai/Chou En-lai as First Lady Pat Nixon looks on."/>
+		<br>
+		<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Pat_Nixon_in_China.jpg" alt="Pat Nixon in China"/>
+		<br>
+		<img class="images" src="https://upload.wikimedia.org/wikipedia/commons/9/94/Ronald_Reagan_televised_address_from_the_Oval_Office%2C_outlining_plan_for_Tax_Reduction_Legislation_July_1981.jpg" alt="Better days"/>
+	</body>
+</html>
+
